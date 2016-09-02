@@ -1,0 +1,31 @@
+version: 1.0.0
+tags: []
+layout:
+  sol_sources: contracts
+  build_dir: build
+dependencies:
+  dapphub_registry: 0.1.5
+ignore: []
+name: 006_multiarray
+environments:
+  master:
+    objects:
+      a:
+        value: '0xa278ed8a9371721e4f070a83eca2149bfe39f5b3'
+        type: OnBlockchain
+      thirtytwo:
+        value: '0x20'
+        type: uint
+      seventeen_nonstatic:
+        value: '0xfafdf98b00000000000000000000000000000000000000000000000000000000'
+        type: uint
+      seventeen:
+        value: '0x11'
+        type: uint
+      four:
+        value: '0x3'
+        type: uint
+    type: internal
+  omg:
+    objects: {}
+    type: UNKNOWN
