@@ -5,4 +5,5 @@ But did you know that you can also generate beautiful reports using `//@doc`?
 In todays dapp-a-day we will explore the reporter and also answer the question
 "If you decrese the size of a nested array, will the nested arrays be deleted or just the pointer
 like it is done with mappings?", lets see by looking at our
-[nicely generated report](https://github.com/nexusdev/multiarray-reporter/blob/master/report.md).
+[nicely generated report](https://github.com/nexusdev/multiarray-reporter/blob/master/report.md). 
+(which was generated with `dapple test --report`)
